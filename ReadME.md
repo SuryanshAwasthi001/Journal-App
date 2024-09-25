@@ -1,12 +1,12 @@
 Scalable Journalling App
 
-User---->will log in to  see the welcome message with weather fetched from external api
-request will check redis cache before fetching data from exteranal api
+User---->will log in to  see the welcome message with weather fetched from the external API
+the request will check the Redis cache before fetching data from the external API
 
-User--------> can  CRUD journal
-User -------->can subscribe to journal application sentimentAnalysis service 
-CRON job will run fetching sentiment reports of journal for each user to send mail to all users who have subscribed
-sentiment job will communicate with email asynchronously service via kafka
+User--------> can  CRUD journal entry.
+User -------->can subscribe to journal application sentiment analysis service 
+CRON job will run fetching sentiment reports of the journal for each user to send mail to all users who have subscribed
+sentiment job will communicate with email asynchronously service via Kafka
 
 Logs will 
 
