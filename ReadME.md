@@ -1,4 +1,4 @@
-Scalable Journalling App
+Scalable Journalling App -->using Kafka, Redis, MongoDB, jwt, and cron jobs. 
 Admin can create new admin users.
 Admin     can view all users
 
