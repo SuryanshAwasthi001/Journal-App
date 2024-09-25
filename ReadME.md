@@ -1,4 +1,6 @@
 Scalable Journalling App
+Admin can create new admin users.
+Admin     can view all users
 
 User---->will log in to  see the welcome message with weather fetched from the external API
 the request will check the Redis cache before fetching data from the external API
